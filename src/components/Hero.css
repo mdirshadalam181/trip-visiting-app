@@ -1,0 +1,87 @@
+/* It  is for Home component css */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    font-weight: 800;
+    background: white;
+    text-shadow: 1px 1px 40px pink;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p{
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 5px 5px 40px white;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.hero-text .show{
+    text-decoration: none;
+    border: 4px solid white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 20px white;
+}
+
+@media screen and (max-width: 555px) {
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero-text .show{
+        padding: .6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        color: black;
+        text-shadow: 1px 1px 10px black;
+        background: lightpink;
+
+    }
+}
+
+
+
+/* It is for about component css */
+.hero-mid{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.hero-text .hide{
+    display: none;
+}
+
+.hero-mid h1{
+    padding-top: 4rem !important;
+}

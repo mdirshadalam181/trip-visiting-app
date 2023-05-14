@@ -1,0 +1,48 @@
+.whole{
+    margin: 0px;
+    padding: 1px;
+    background: linear-gradient(120deg, #a0d7fc, #f58fa0);
+}
+
+.login{
+    position: relative;
+    margin: 3rem;
+    padding: 1rem;
+    border: 4px solid white;
+    border-style: none;
+    border-radius: 1rem;
+    left: 30%;
+    width: 40%;
+    background: linear-gradient(120deg, #faf5b0, #93f58f);
+}
+
+.login h1{
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.login input{
+    margin: .5rem;
+    padding: .5rem;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 850px){
+    .login{
+        position: relative;
+        margin: 3rem;
+        padding: 1rem;
+        border: 3px solid white;
+        border-style: none;
+        border-radius: 1rem;
+        left: 15%;
+        width: 60%;
+        background: linear-gradient(120deg, #faf5b0, #93f58f);
+    }
+}
